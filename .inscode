@@ -1,0 +1,4 @@
+run = "pip install -r requirements.txt && python quick_start.py"
+is_gui = false
+is_resident = true
+is_html = false

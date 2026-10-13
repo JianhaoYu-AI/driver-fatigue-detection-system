@@ -1,0 +1,18 @@
+# Desktop inference and training dependencies; use Python 3.10 in a separate environment.
+# The YOLOv12-compatible ultralytics source is bundled locally; do not replace it with the Web version.
+torch==2.0.1
+torchvision==0.15.2
+PyQt5==5.15.10
+opencv-python==4.9.0.80
+numpy>=1.23.0,<2.0.0
+PyYAML==6.0.1
+scipy==1.13.0
+matplotlib>=3.5.0
+pillow>=10.0.0
+pandas>=1.1.4
+seaborn>=0.11.0
+requests>=2.23.0
+tqdm>=4.64.0
+psutil>=5.9.0
+py-cpuinfo>=9.0.0
+ultralytics-thop>=2.0.0

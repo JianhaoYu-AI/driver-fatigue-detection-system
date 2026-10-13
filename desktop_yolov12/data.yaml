@@ -1,0 +1,7 @@
+# Replace path with the absolute path of your extracted dataset before training.
+path: ../datasets/fatigue_yolov12
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names: ['Yawn', 'close', 'noYawn', 'open']

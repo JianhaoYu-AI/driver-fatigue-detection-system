@@ -1,0 +1,47 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Old virtual environment stored in the project root
+/Scripts/
+/pyvenv.cfg
+.venv/
+venv/
+env/
+Lib/
+Include/
+
+# IDE and local configuration
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Private training data and generated outputs
+/Fatigue/
+/fatigue_yolo_dataset/
+/fatigue_results/
+/detection_results/
+/runs/
+/test_sample.jpg
+/test_result.png
+
+# Model artifacts; retain the bundled generic initialization checkpoint
+*.pt
+*.onnx
+*.engine
+*.tflite
+!/yolo11n.pt
+# Separate version environments and private desktop data
+.venv-*/
+**/accounts.json
+**/results/
+/datasets/
+/desktop_yolov12/datasets/
+**/labels/*.cache
+!/desktop_yolov12/best.pt

@@ -1,0 +1,8 @@
+# 疲劳检测数据集配置
+path: ./fatigue_yolo_dataset
+train: images/train
+val: images/val
+
+# 类别
+nc: 4
+names: ['open_eye', 'closed_eye', 'open_mouth', 'closed_mouth']

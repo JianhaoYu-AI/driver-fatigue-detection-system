@@ -28,7 +28,7 @@ YOLO11 Web 版标签顺序是 `open_eye, closed_eye, open_mouth, closed_mouth`�
 
 ## 本地旧目录
 
-另一个 `毕设代码/fatigue_yolo_dataset` 目录当前只有空目录骨架，没有图片或标签，因此不能替代此 ZIP。旧 `venv` 属于 Python 环境，约 210 MiB，路径仍指向旧电脑，不作为源码发布。
+另一个 `fatigue_yolo_dataset` 目录当前只有空目录骨架，没有图片或标签，因此不能替代此 ZIP。旧 `venv` 属于 Python 环境，约 210 MiB，路径仍指向旧电脑，不作为源码发布。
 
 ## 发布范围
 
